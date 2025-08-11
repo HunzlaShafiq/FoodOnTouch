@@ -1,16 +1,64 @@
-# fooddelivery
+# 🍔 FoodExpress - Flutter Food Delivery App
 
-A new Flutter project.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/HunzlaShafiq/fooddelivery/main/assets/logo.png" width="150" alt="FoodExpress Logo">
+  <p>Restaurant-to-door food delivery solution with three user roles</p>
+  
+  [![Flutter](https://img.shields.io/badge/Flutter-3.19.5-%2302569B?logo=flutter)](https://flutter.dev)
+  [![Firebase](https://img.shields.io/badge/Firebase-12.7.1-%23FFCA28?logo=firebase)](https://firebase.google.com)
+  [![Provider](https://img.shields.io/badge/Provider-6.1.2-%234285F4)](https://pub.dev/packages/provider)
+  [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+</div>
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+### For Customers
+- 🛍️ Browse restaurants & menus
+- 🔍 Search and filter food items
+- 🛒 Cart management
+- 💳 Multiple payment options
+- 📍 Real-time order tracking
 
-A few resources to get you started if this is your first Flutter project:
+### For Restaurant Owners
+- 🏪 Store management
+- 🍽️ Menu customization
+- 📊 Sales analytics
+- 🔔 Order notifications
+- ⏱️ Preparation time estimation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### For Delivery Partners
+- 🗺️ Optimized route navigation
+- 📱 Order pickup confirmation
+- 🏁 Delivery completion
+- 💰 Earnings tracker
+- ⏱️ Time management tools
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📱 Screenshots
+
+<div align="center">
+  <img src="screenshots/customer_home.jpg" width="24%" alt="Customer Home">
+  <img src="screenshots/restaurant_dashboard.jpg" width="24%" alt="Restaurant Dashboard">
+  <img src="screenshots/delivery_app.jpg" width="24%" alt="Delivery App">
+  <img src="screenshots/order_tracking.jpg" width="24%" alt="Order Tracking">
+</div>
+
+## 🛠️ Tech Stack
+
+**Frontend:**
+- Flutter (Material 3 Design)
+- Provider (State Management)
+- Google Maps API
+- Razorpay Integration
+
+**Backend:**
+- Firebase Authentication
+- Cloud Firestore (Database)
+- Firebase Storage (Menu Images)
+- Firebase Cloud Messaging (Notifications)
+
+## 💻 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/HunzlaShafiq/fooddelivery.git
+   cd fooddelivery
