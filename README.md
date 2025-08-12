@@ -1,5 +1,4 @@
-# 🍔 FoodExpress - Flutter Food Delivery App
-
+# 🍔 FoodOnTouch - Flutter Food Delivery App
 <div align="center">
   <img src="https://raw.githubusercontent.com/HunzlaShafiq/fooddelivery/main/assets/logo.png" width="150" alt="FoodExpress Logo">
   <p>Restaurant-to-door food delivery solution with three user roles</p>
@@ -23,18 +22,15 @@
 - 🏪 Store management
 - 🍽️ Menu customization
 - 📊 Sales analytics
-- 🔔 Order notifications
-- ⏱️ Preparation time estimation
 
 ### For Delivery Partners
-- 🗺️ Optimized route navigation
+- 🗺️ route navigation
 - 📱 Order pickup confirmation
-- 🏁 Delivery completion
-- 💰 Earnings tracker
-- ⏱️ Time management tools
+- ✅ Delivery completion
+
+---
 
 ## 📱 Screenshots
-
 <div align="center">
   <img src="screenshots/customer_home.jpg" width="24%" alt="Customer Home">
   <img src="screenshots/restaurant_dashboard.jpg" width="24%" alt="Restaurant Dashboard">
@@ -42,8 +38,9 @@
   <img src="screenshots/order_tracking.jpg" width="24%" alt="Order Tracking">
 </div>
 
-## 🛠️ Tech Stack
+---
 
+## 🛠️ Tech Stack
 **Frontend:**
 - Flutter (Material 3 Design)
 - Provider (State Management)
@@ -56,9 +53,43 @@
 - Firebase Storage (Menu Images)
 - Firebase Cloud Messaging (Notifications)
 
+---
+
 ## 💻 Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/HunzlaShafiq/fooddelivery.git
-   cd fooddelivery
+1.  **Clone the repository**
+    ```bash
+    git clone [https://github.com/HunzlaShafiq/FoodOnTouch.git](https://github.com/HunzlaShafiq/FoodOnTouch.git)
+    cd fooddelivery
+    ```
+
+2.  **Setup Firebase**
+    ```bash
+    flutter pub add firebase_core
+    flutterfire configure
+    ```
+
+3.  **Install dependencies**
+    ```bash
+    flutter pub get
+    ```
+
+4.  **Run the app**
+    ```bash
+    flutter run
+    ```
+
+---
+
+## 📂 Project Structure
+```text
+lib/
+├── features/
+│   ├── customer/       # Customer-facing features
+│   ├── restaurant/     # Restaurant management
+│   └── delivery/       # Delivery partner features
+├── core/
+│   ├── constants/      # App constants
+│   ├── services/       # Shared services
+│   └── widgets/        # Reusable components
+└── main.dart           # Entry point
