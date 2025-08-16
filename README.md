@@ -20,8 +20,7 @@
 
 ### For Restaurant Owners
 - 🏪 Store management
-- 🍽️ Menu customization
-- 📊 Sales analytics
+- 🍽️ Menu customiztions 
 
 ### For Delivery Partners
 - 🗺️ route navigation
