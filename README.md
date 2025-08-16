@@ -44,13 +44,11 @@
 - Flutter (Material 3 Design)
 - Provider (State Management)
 - Google Maps API
-- Razorpay Integration
 
 **Backend:**
 - Firebase Authentication
 - Cloud Firestore (Database)
 - Firebase Storage (Menu Images)
-- Firebase Cloud Messaging (Notifications)
 
 ---
 
