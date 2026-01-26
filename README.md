@@ -1,6 +1,6 @@
 # 🍔 FoodOnTouch - Flutter Food Delivery App
 <div align="center">
-  <img src="https://raw.githubusercontent.com/HunzlaShafiq/fooddelivery/main/assets/logo.png" width="150" alt="FoodExpress Logo">
+  <img src="https://raw.githubusercontent.com/HunzlaShafiq/fooddelivery/main/assets/applogo.png" width="150" alt="FoodExpress Logo">
   <p>Restaurant-to-door food delivery solution with three user roles</p>
   
   [![Flutter](https://img.shields.io/badge/Flutter-3.19.5-%2302569B?logo=flutter)](https://flutter.dev)
